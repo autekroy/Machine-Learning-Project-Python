@@ -1,0 +1,195 @@
+Exp 1.  5-NN LOOCV (feature: means of data):  Accuracy: 0.666666666667
+
+Precission:	recall:		sensitivity:	specificity:
+0.5789		0.6875		0.6875		0.6522		
+
+F - measure: 0.628571428571
+
+              Output
+          class 1, class 0
+ class 1    11        8
+ class 0    5        15
+-----------------------------------------------------------------------------------
+
+Exp 2.  5-NN LOOCV (feature: addMean):  Accuracy: 0.666666666667
+
+Precission:	recall:		sensitivity:	specificity:
+0.6316		0.6667		0.6667		0.6667		
+
+F - measure: 0.648648648649
+
+              Output
+          class 1, class 0
+ class 1    12        7
+ class 0    6        14
+-----------------------------------------------------------------------------------
+
+Exp 3.  5-NN LOOCV (feature: addMean_miusMean):  Accuracy: 0.666666666667
+
+Precission:	recall:		sensitivity:	specificity:
+0.5789		0.6875		0.6875		0.6522		
+
+F - measure: 0.628571428571
+
+              Output
+          class 1, class 0
+ class 1    11        8
+ class 0    5        15
+-----------------------------------------------------------------------------------
+
+Exp 4.  7-NN LOOCV (feature: mean_median):  Accuracy: 0.666666666667
+
+Precission:	recall:		sensitivity:	specificity:
+0.6316		0.6667		0.6667		0.6667		
+
+F - measure: 0.648648648649
+
+              Output
+          class 1, class 0
+ class 1    12        7
+ class 0    6        14
+-----------------------------------------------------------------------------------
+
+Exp 5.  7-NN LOOCV (feature: weight1):  Accuracy: 0.641025641026
+
+Precission:	recall:		sensitivity:	specificity:
+0.5789		0.6471		0.6471		0.6364		
+
+F - measure: 0.611111111111
+
+              Output
+          class 1, class 0
+ class 1    11        8
+ class 0    6        14
+-----------------------------------------------------------------------------------
+
+Exp 6.  7-NN LOOCV (feature: median):  Accuracy: 0.641025641026
+
+Precission:	recall:		sensitivity:	specificity:
+0.7368		0.6087		0.6087		0.6875		
+
+F - measure: 0.666666666667
+
+              Output
+          class 1, class 0
+ class 1    14        5
+ class 0    9        11
+-----------------------------------------------------------------------------------
+
+Exp 7.  7-NN LOOCV (feature: rms):  Accuracy: 0.666666666667
+
+Precission:	recall:		sensitivity:	specificity:
+0.5789		0.6875		0.6875		0.6522		
+
+F - measure: 0.628571428571
+
+              Output
+          class 1, class 0
+ class 1    11        8
+ class 0    5        15
+-----------------------------------------------------------------------------------
+
+Exp 8.  7-NN LOOCV (feature: mean_rms):  Accuracy: 0.666666666667
+
+Precission:	recall:		sensitivity:	specificity:
+0.5789		0.6875		0.6875		0.6522		
+
+F - measure: 0.628571428571
+
+              Output
+          class 1, class 0
+ class 1    11        8
+ class 0    5        15
+-----------------------------------------------------------------------------------
+
+Exp 9.  perceptron LOOCV (feature: "mean_rms") no Bias, has Kernel:  Accuracy: 0.717948717949
+
+Precission:	recall:		sensitivity:	specificity:
+0.6316		0.7500		0.7500		0.6957		
+
+F - measure: 0.685714285714
+
+              Output
+          class 1, class 0
+ class 1    12        7
+ class 0    4        16
+-----------------------------------------------------------------------------------
+
+Exp 10.  perceptron LOOCV (feature: "weight1") no Bias, has Kernel:  Accuracy: 0.589743589744
+
+Precission:	recall:		sensitivity:	specificity:
+0.8947		0.5484		0.5484		0.7500		
+
+F - measure: 0.68
+
+              Output
+          class 1, class 0
+ class 1    17        2
+ class 0    14        6
+-----------------------------------------------------------------------------------
+
+Exp 11.  perceptron LOOCV (feature: "mean") no Bias, no Kernel:  Accuracy: 0.538461538462
+
+Precission:	recall:		sensitivity:	specificity:
+0.4211		0.5333		0.5333		0.5417		
+
+F - measure: 0.470588235294
+
+              Output
+          class 1, class 0
+ class 1    8        11
+ class 0    7        13
+-----------------------------------------------------------------------------------
+
+Exp 12.  MLP LOOCV with 2 hidden layer nodes (feature: "mean") has Bias, no Kernel:  Accuracy: 0.589743589744
+
+Precission:	recall:		sensitivity:	specificity:
+0.5263		0.5882		0.5882		0.5909		
+
+F - measure: 0.555555555556
+
+              Output
+          class 1, class 0
+ class 1    10        9
+ class 0    7        13
+-----------------------------------------------------------------------------------
+
+Exp 13.  MLP LOOCV with 3 hidden layer nodes (feature: "mean") has Bias, no Kernel:  Accuracy: 0.564102564103
+
+Precission:	recall:		sensitivity:	specificity:
+0.4737		0.5625		0.5625		0.5652		
+
+F - measure: 0.514285714286
+
+              Output
+          class 1, class 0
+ class 1    9        10
+ class 0    7        13
+-----------------------------------------------------------------------------------
+
+Exp 14.  MLP(batch) (linear) LOOCV with 2 hidden layer nodes (feature: "mean"):  Accuracy: 0.538461538462
+
+Precission:	recall:		sensitivity:	specificity:
+0.7368		0.5185		0.5185		0.5833		
+
+F - measure: 0.608695652174
+
+              Output
+          class 1, class 0
+ class 1    14        5
+ class 0    13        7
+-----------------------------------------------------------------------------------
+
+Exp 15.  MLP(batch) (logistic) LOOCV with 3 hidden layer nodes (feature: "mean"):  Accuracy: 0.589743589744
+
+Precission:	recall:		sensitivity:	specificity:
+0.4737		0.6000		0.6000		0.5833		
+
+F - measure: 0.529411764706
+
+              Output
+          class 1, class 0
+ class 1    9        10
+ class 0    6        14
+-----------------------------------------------------------------------------------
+
